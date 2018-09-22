@@ -2,8 +2,6 @@
 ; Author : Albert Klinkovský
 
 
-
-
 .def acc = r23	;promenna
 .def bcc = r24	;promenna
 
