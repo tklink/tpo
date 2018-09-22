@@ -1,1 +1,1 @@
-# tpo
+# Technika programovatelných obvodů
