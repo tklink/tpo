@@ -14,13 +14,13 @@ init:
 	out ddrf, bcc	;nastaveni portf jako vystupni
 	
 start:
-	lds	bcc, portk
+	lds bcc, portk
 	mov acc, bcc
 
 	rol acc	;rotace v levo poprve
 	rol acc	;rotace v levo podruhe
 
-	or bcc, acc ;logicky soucet bcc a acc
+	or bcc, acc	;logicky soucet bcc a acc
 
-	out	portf, bcc
+	out portf, bcc
 	rjmp start
